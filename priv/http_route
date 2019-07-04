@@ -1,0 +1,7 @@
+[
+    {"/",               cowboy_static, {file, "index.html",  [{mimetypes, {<<"*">>, <<"*">>, []}}] }},
+
+    {"/login",          www_login,          #{}},
+    {"/registration",   www_registration,   #{}},
+    {"/profile",        www_profile,        #{}}
+].
